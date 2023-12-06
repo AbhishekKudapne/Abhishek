@@ -1,18 +1,18 @@
 .header {
     height: 55px;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		position: fixed;
-		top: 0px;
-		bottom: 0px;
-		left: 0px;
-		right: 0px;
-		background-color: white;
-		border-bottom-style: solid;
-		border-bottom-width: 1px;
-		border-bottom-color: rgb(228, 228, 228);
-		z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(228, 228, 228);
+    z-index: 1;
 }
 
 .left-section {

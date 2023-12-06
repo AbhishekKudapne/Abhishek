@@ -1,0 +1,15 @@
+p {
+	font-family: Roboto, Arial;
+	font-weight: 500;
+}
+
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	font-family: Roboto, Arial;
+	font-weight: 500;
+	color: black;
+}

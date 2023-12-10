@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            English IMPs
+        </title>
+    </head>
+    <body style="background-color: black;">
+        <style>
+            marquee {
+                color: white;
+                font-size: 180%;
+                font-family: Arial;
+            }
+
+            .line1 {
+                position: absolute;
+                top: 21%;
+                right: 0;
+                left: 0;
+                border-bottom-color: white;
+                border-bottom-style: solid;
+            }
+
+            .line2 {
+                position: absolute;
+                bottom: 95%;
+                right: 0;
+                left: 0;
+                border-bottom-color: white;
+                border-bottom-style: solid;
+            }
+            
+            .sidebar {
+                display: flex;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 95%;
+                bottom: 0;
+                border-radius: 5px;
+                background-image: linear-gradient(to right, rgb(249, 47, 47), orange);
+                border-style: solid;
+                border-color: white;
+                justify-content: space-evenly;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .content {
+                margin-left: 4.5%;
+            }
+
+            .home-icon {
+                height: 40px;
+            }
+            
+            .t1 {
+                position: absolute;
+                top: 25%;
+                color: black;
+                font-family: Arial;
+                font-size: 85%;
+            }
+
+            .t2 {
+                position: absolute;
+                top: 52%;
+                font-size: 85%;
+                color: black;
+                font-family: Arial;
+            }
+
+            .t3 {
+                position: absolute;
+                top: 78%;
+                font-size: 85%;
+                color: black;
+                font-family: Arial;
+            }
+
+            .samplepaper-icon {
+                height: 40px;
+            }
+
+            .yt {
+                height: 40px;
+            }
+        </style>
+        <div class="content">
+                <marquee direction="down" height="200px" behavior="alternate">
+                <marquee direction="right" height="100px" behavior="alternate">
+                    Welcome!
+                </marquee>
+                </marquee>
+                <p class="line1">
+                    -
+                </p>
+                <p class="line2">
+                    -
+                </p>
+        </div>
+        <div class="sidebar">
+            <a href="abhishekkudapne.github.io/index.html"><img src="EnglishIMP-Icons/home-icon.png" class="home-icon"></a>
+            <p class="t1">Home</p>
+            <a href="abhishekkudapne.github.io/sample.html"><img src="EnglishIMP-Icons/samplepaper-icon.png" class="samplepaper-icon"></a>
+            <p class="t2">Sample</p>
+            <a href="abhishekkudapne.github.io/videos.html"><img src="EnglishIMP-Icons/yt-icon.png" class="yt"></a>
+            <p class="t3">Videos</p>
+        </div>
+    </body>
+</html>
